@@ -20,7 +20,7 @@ const NavBar = () => {
         <div className="hidden lg:block flex flex-row">
           <input
             type="text"
-            placeholder="Search Mess Here"
+            placeholder="Search city Here"
             className="rounded-l-sm outline-none text-black px-4 p-1"
           />
           <button className="bg-gray-500 rounded-r-sm px-4 p-1">Search</button>
