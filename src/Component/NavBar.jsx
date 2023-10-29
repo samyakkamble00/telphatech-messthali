@@ -11,7 +11,7 @@ const NavBar = () => {
     { id: 5, link: "LogIn" },
   ];
   return (
-    <div className="flex justify-around items-center pr-8 w-full h-20 fixed px-2 bg-black m-auto">
+    <div className="flex justify-around items-center pr-8 w-full h-20 fixed px-2 bg-black m-auto z-10">
       <div>
         <h1 className="text-2xl ml-2">MessThali</h1>
       </div>
