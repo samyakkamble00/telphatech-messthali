@@ -115,10 +115,11 @@ const Info = () => {
 
   return (
     <>
+
       {array.map(({ id, name, Owner, Address, Menu }) => (
         <div
           key={id}
-          className="rounded-lg bg-slate-50 w-60 h-fit shadow-black text-black p-3 m-6 gap-8
+          className="rounded-lg group relative bg-slate-50 w-60 h-fit shadow-black text-black p-3 m-6 gap-8
           hover:scale-105 "
         >
           <img
@@ -133,7 +134,7 @@ const Info = () => {
           <div>
             <span className="font-bold">Address:</span> {Address}
           </div>
-          <div>
+          <div className="hidden  group-hover:block">
             <div className="font-bold">Menu:</div>
             <ul className="w-full flex flex-col justify-center">
               {Menu.map((item, index) => (
@@ -142,7 +143,8 @@ const Info = () => {
             </ul>
           </div>
           <div className="flex flex-row justify-between">
-            <button className="hover:scale-105 rounded-lg bg-slate-600 p-1 px-3 mt-2 flex "><ImLocation size={15} className="mb-[-10px]"/>Location</button>
+            <button className="hover:scale-105 rounded-lg bg-slate-600 p-1 px-3 mt-2 flex ">
+            <ImLocation size={15} className="mb-[-10px]"/>Location</button>
             <button className="hover:scale-105 rounded-lg bg-slate-600 p-1 px-3 mt-2 flex"><AiOutlineShoppingCart size={15} className="mb-[-10px]"/> Order</button>
           </div>
         </div>
