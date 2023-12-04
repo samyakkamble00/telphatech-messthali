@@ -6,7 +6,7 @@ const Info = () => {
     {
       id: 1,
       name: "Healthy Bites Mess",
-      Owner: "John Doe",
+      Owner: "Renuka",
       Address: "123 Main Street, Pune, Hadapsar",
       Menu: [
         "Veg Thali - $10",
@@ -18,7 +18,7 @@ const Info = () => {
     {
       id: 2,
       name: "Healthy Bites Mess",
-      Owner: "John Doe",
+      Owner: "Samyak",
       Address: "123 Main Street, Pune, Hadapsar",
       Menu: [
         "Veg Thali - $10",
@@ -31,14 +31,14 @@ const Info = () => {
     {
       id: 3,
       name: "Healthy Bites Mess",
-      Owner: "John Doe",
+      Owner: "Snehal",
       Address: "123 Main Street, Pune, Hadapsar",
       Menu: ["Veg Thali - $10", "Veg Thali - $10", "Biryani - $12"],
     },
     {
       id: 4,
       name: "Healthy Bites Mess",
-      Owner: "John Doe",
+      Owner: "Rahul",
       Address: "123 Main Street, Pune, Hadapsar",
       Menu: [
         "Veg Thali - $10",
@@ -50,7 +50,7 @@ const Info = () => {
     {
       id: 5,
       name: "Healthy Bites Mess",
-      Owner: "John Doe",
+      Owner: "Anuradha",
       Address: "123 Main Street, Pune, Hadapsar",
       Menu: [
         "Veg Thali - $10",
